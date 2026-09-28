@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAR_PLACE - Contato</title>
+</head>
+<body>
+
+<header>
+    <h1>Modelos de Carros</h1>
+    <nav>
+        <a href="../1-html/1-inicio.html">Início</a> |
+        <a href="../1-html/2-hitória.html">História</a> |
+        <a href="../1-html/3-modelos.html">Modelos</a> |
+        <a href="../1-html/4-contato.html">Contato</a>
+    </nav>
+</header>
+
+<main>
+
+    <section>
+        <h2>Fale com a CAR_PLACE</h2>
+        <p>Preencha o formulário abaixo para compartilhar suas preferências sobre automóveis.</p>
+
+        <form action="#" method="get">
+
+            <fieldset>
+                <legend>Dados pessoais</legend>
+
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="nome" name="nome"
+                placeholder="Digite seu nome completo" required>
+                <br><br>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email"
+                placeholder="exemplo@email.com" required>
+                <br><br>
+
+                <label for="data">Data de nascimento:</label>
+                <input type="date" id="data" name="data" required>
+                <br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferências automotivas</legend>
+
+                <label for="modelo">Qual modelo você prefere?</label>
+                <input list="modelos" id="modelo" name="modelo"
+                placeholder="Escolha ou digite um modelo" required>
+
+                <datalist id="modelos">
+                    <option value="Ferrari 488 GTB">
+                    <option value="Toyota Corolla">
+                    <option value="Caoa Chery Tiggo 5X">
+                    <option value="Honda Civic">
+                    <option value="Chevrolet Onix">
+                </datalist>
+                <br><br>
+
+                <label for="tipo">Tipo de carro preferido:</label>
+                <select id="tipo" name="tipo" required>
+                    <option value="">Selecione uma opção</option>
+                    <option value="esportivo">Esportivo</option>
+                    <option value="sedan">Sedã</option>
+                    <option value="suv">SUV</option>
+                    <option value="hatch">Hatch</option>
+                    <option value="eletrico">Elétrico</option>
+                </select>
+                <br><br>
+
+                <label for="avaliacao">Quanto você gosta de carros? (0 a 10)</label>
+                <input type="range" id="avaliacao" name="avaliacao"
+                min="0" max="10" value="5">
+                <br><br>
+
+                <label for="foto">Envie uma foto do seu carro favorito:</label>
+                <input type="file" id="foto" name="foto" accept="image/*">
+                <br><br>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem"
+                placeholder="Escreva sua mensagem aqui" required></textarea>
+                <br><br>
+
+                <button type="submit">Enviar formulário</button>
+                <button type="reset">Limpar formulário</button>
+
+            </fieldset>
+
+        </form>
+    </section>
+
+    <section>
+        <h2>Registro da atividade</h2>
+        <p>Data da prova:
+        <time datetime="2026-09-28">28/09/2026</time>
+        </p>
+
+        <p>Houve uma dificuldade na parte do formulário e também na parte de progress</p>
+    </section>
+
+    <section>
+        <h2>Conceito de HTML</h2>
+
+        <blockquote>
+          <form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+        </blockquote>
+        <p><cite>Conceito inicial de formulário citado pelo professor durante a unidade 1.</cite></p>
+    </section>
+</main>
+
+</body>
+</html>
