@@ -1,1 +1,1 @@
-# p-g_avalia-o
+O CAR_PLACE é um site desenvolvido em HTML para apresentar a história dos automóveis, diferentes modelos de carros e informações sobre o universo automotivo, com uma página de contato para os visitantes.
